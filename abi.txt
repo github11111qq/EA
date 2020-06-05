@@ -87,21 +87,6 @@
 		"type": "function"
 	},
 	{
-		"constant": true,
-		"inputs": [],
-		"name": "bose",
-		"outputs": [
-			{
-				"internalType": "address payable",
-				"name": "",
-				"type": "address"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
 		"constant": false,
 		"inputs": [],
 		"name": "bubbleSort",
@@ -185,21 +170,6 @@
 				"internalType": "uint256",
 				"name": "_pID",
 				"type": "uint256"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"constant": true,
-		"inputs": [],
-		"name": "cto",
-		"outputs": [
-			{
-				"internalType": "address payable",
-				"name": "",
-				"type": "address"
 			}
 		],
 		"payable": false,
@@ -420,21 +390,6 @@
 	},
 	{
 		"constant": true,
-		"inputs": [],
-		"name": "gWithDraw_",
-		"outputs": [
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"constant": true,
 		"inputs": [
 			{
 				"internalType": "uint256",
@@ -596,72 +551,6 @@
 			{
 				"internalType": "uint256",
 				"name": "_baseAff",
-				"type": "uint256"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"constant": true,
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "_pID",
-				"type": "uint256"
-			}
-		],
-		"name": "getPlayerlaById",
-		"outputs": [
-			{
-				"internalType": "uint256",
-				"name": "affid",
-				"type": "uint256"
-			},
-			{
-				"internalType": "address",
-				"name": "addr",
-				"type": "address"
-			},
-			{
-				"internalType": "uint256",
-				"name": "totalBet",
-				"type": "uint256"
-			},
-			{
-				"internalType": "uint256",
-				"name": "level",
-				"type": "uint256"
-			},
-			{
-				"internalType": "uint256",
-				"name": "_excellencepot",
-				"type": "uint256"
-			},
-			{
-				"internalType": "string",
-				"name": "inviteCode",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "affInviteCode",
-				"type": "string"
-			},
-			{
-				"internalType": "uint256",
-				"name": "_withdrawGdReward",
-				"type": "uint256"
-			},
-			{
-				"internalType": "uint256",
-				"name": "_totalGdreward",
-				"type": "uint256"
-			},
-			{
-				"internalType": "uint256",
-				"name": "_gdreward",
 				"type": "uint256"
 			}
 		],
@@ -893,67 +782,6 @@
 			{
 				"internalType": "uint256",
 				"name": "excellencepot",
-				"type": "uint256"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"constant": true,
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"name": "plyrReward_",
-		"outputs": [
-			{
-				"internalType": "uint256",
-				"name": "canWithDrawGen",
-				"type": "uint256"
-			},
-			{
-				"internalType": "uint256",
-				"name": "canWithDrawAff",
-				"type": "uint256"
-			},
-			{
-				"internalType": "uint256",
-				"name": "reward",
-				"type": "uint256"
-			},
-			{
-				"internalType": "uint256",
-				"name": "totalGen",
-				"type": "uint256"
-			},
-			{
-				"internalType": "uint256",
-				"name": "totalAff",
-				"type": "uint256"
-			},
-			{
-				"internalType": "uint256",
-				"name": "deepAff",
-				"type": "uint256"
-			},
-			{
-				"internalType": "uint8",
-				"name": "level",
-				"type": "uint8"
-			},
-			{
-				"internalType": "uint256",
-				"name": "withDrawEdGen",
-				"type": "uint256"
-			},
-			{
-				"internalType": "uint256",
-				"name": "withDrawEdAff",
 				"type": "uint256"
 			}
 		],

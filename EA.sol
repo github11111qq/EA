@@ -190,10 +190,6 @@ returns(uint256 _pID,uint256 _less,uint256 _totalGen,uint256 _totalAff,uint256 t
     _totalAff = plyrReward_[_pID].totalAff + _aff;
    
     
-    totalGenH =  plyrReward_[_pID].totalGen - plyrReward_[_pID].withDrawEdGen + _gen;
-    totalAffH =  plyrReward_[_pID].totalAff - plyrReward_[_pID].withDrawEdAff + _aff;
-   
-    
     _baseGen = plyr_[_pID].baseGen;
     _baseAff = plyr_[_pID].baseAff;
     
@@ -218,11 +214,6 @@ returns(uint256 affid,address addr,uint256 totalBet,uint256 level,uint256 _excel
     
     _excellencepot = playerPot_[_pID].excellencepot;
     
-    inviteCode = plyr_[_pID].inviteCode;
-    affInviteCode =plyr_[plyr_[_pID].affId].inviteCode;
-    _withdrawGdReward = plyrReward_[_pID].withDrawGdReward;
-    _totalGdreward = plyrReward_[_pID].totalGdRewad;
-    _gdreward = plyrReward_[_pID].totalGdRewad.sub(plyrReward_[_pID].withDrawGdReward);
 
 
 }
